@@ -1,5 +1,3 @@
-import LogoBigIcon from "@/public/icons/LogoBigIcon";
-import VerifiedBadgeIcon from "@/public/icons/VerifiedBadgeIcon";
 import VendorDetails from "./VendorDetails";
 import DisplayItems from "./(items)/DisplayItems";
 

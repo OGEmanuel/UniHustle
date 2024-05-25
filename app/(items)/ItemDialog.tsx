@@ -4,8 +4,6 @@ import shoe from "@/public/images/shoe.png";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,

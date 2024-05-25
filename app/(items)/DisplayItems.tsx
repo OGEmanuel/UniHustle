@@ -1,4 +1,3 @@
-import ItemCard from "@/components/ItemCard";
 import Card from "@/components/card";
 import { ItemDialog } from "./ItemDialog";
 

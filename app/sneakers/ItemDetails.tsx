@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import StarIcon from "@/public/icons/StarIcon";
 import shoes from "@/public/images/shoes-2.svg";
-
 import Image from "next/image";
 import Link from "next/link";
 
