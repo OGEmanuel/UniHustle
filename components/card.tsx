@@ -9,7 +9,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`mx-16 rounded-[10px] border-[3px] !border-[#F5F5F5] bg-white px-8 ${className}`}
+      className={`mx-6 rounded-[10px] border-[3px] !border-[#F5F5F5] bg-white md:mx-16 ${className}`}
     >
       {children}
     </div>

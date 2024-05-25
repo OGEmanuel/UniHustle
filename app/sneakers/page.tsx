@@ -4,12 +4,12 @@ import { BreadcrumbWithCustomSeparator } from "./breadcrumbs";
 
 const Sneakers = () => {
   return (
-    <main className="px-16 py-10">
+    <main className="p-6 md:px-16 md:py-10">
       <div className="mb-10">
         <BreadcrumbWithCustomSeparator />
       </div>
       <ItemDetails />
-      <MoreItems/>
+      <MoreItems />
     </main>
   );
 };

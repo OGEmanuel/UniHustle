@@ -20,14 +20,14 @@ export function ItemDialog() {
       <DialogTrigger asChild className="cursor-pointer">
         <ItemCard />
       </DialogTrigger>
-      <DialogContent className="h-[30rem] max-w-[40rem] overflow-auto overflow-x-hidden 2xl:h-auto">
-        <DialogHeader className="mb-10">
+      <DialogContent className="max-w-[23.125rem] overflow-auto overflow-x-hidden rounded-[10px] md:h-[30rem] md:max-w-[40rem] 2xl:h-auto">
+        <DialogHeader className="mb-10 hidden md:block">
           <DialogTitle className="text-center font-bold text-[#D31A38]">
             Product Details
           </DialogTitle>
         </DialogHeader>
-        <div className="mb-7 flex items-center gap-10">
-          <div className="relative h-[14rem] w-[12.5rem] rounded-[10px] border-[3px] !border-[#F1F1F1]">
+        <div className="mb-7 mt-4 flex flex-col items-center gap-5 md:mt-0 md:flex-row md:gap-10">
+          <div className="relative h-[14rem] w-[19.125rem] rounded-[10px] border-[3px] !border-[#F1F1F1] md:w-[12.5rem]">
             <div className="height-[10.75rem] absolute left-[50%] top-[50%] -mt-7 w-[12.875rem] translate-x-[-50%] translate-y-[-40%] -rotate-[30deg]">
               <Image src={shoe} alt="shoe" />
             </div>
@@ -61,13 +61,13 @@ export function ItemDialog() {
             </div>
             <Link
               href={"/"}
-              className="text-right text-sm text-[#D31A38] underline"
+              className="hidden text-right text-sm text-[#D31A38] underline md:block"
             >
               Go to Business Page
             </Link>
           </div>
         </div>
-        <div className="mb-11 flex w-full gap-4 font-medium text-white">
+        <div className="flex w-full flex-col gap-4 font-medium text-white md:mb-11 md:flex-row">
           <Button className="bg-dual-gradient shadow-combined-shadow w-full">
             Add to Cart
           </Button>
@@ -75,7 +75,7 @@ export function ItemDialog() {
             Order Now
           </Button>
         </div>
-        <div>
+        <div className="hidden md:block">
           <p className="mb-4 font-medium text-[#0C0C0C]">
             Other Products from this Business
           </p>
